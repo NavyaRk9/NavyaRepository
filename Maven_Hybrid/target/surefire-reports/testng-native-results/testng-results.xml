@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Login successadminflow    http://primusbank.qedgetech.com/adminflow.aspx]]>
+    </line>
+    <line>
+      <![CDATA[logout success]]>
+    </line>
+    <line>
+      <![CDATA[Login successadminflow    http://primusbank.qedgetech.com/adminflow.aspx]]>
+    </line>
+    <line>
+      <![CDATA[New Branch with id 140 created Sucessfully]]>
+    </line>
+    <line>
+      <![CDATA[logout success]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-10-19T20:55:04 IST" name="Surefire suite" finished-at="2022-10-19T20:55:38 IST" duration-ms="33678">
+    <groups>
+    </groups>
+    <test started-at="2022-10-19T20:55:04 IST" name="Surefire test" finished-at="2022-10-19T20:55:38 IST" duration-ms="33678">
+      <class name="driverFactory.AppTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:driverFactory.AppTest@41d477ed]" started-at="2022-10-19T20:54:53 IST" name="setUp" finished-at="2022-10-19T20:55:04 IST" duration-ms="10988" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="startTest()[pri:0, instance:driverFactory.AppTest@41d477ed]" started-at="2022-10-19T20:55:04 IST" name="startTest" finished-at="2022-10-19T20:55:38 IST" duration-ms="33646" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Login successadminflow    http://primusbank.qedgetech.com/adminflow.aspx]]>
+            </line>
+            <line>
+              <![CDATA[logout success]]>
+            </line>
+            <line>
+              <![CDATA[Login successadminflow    http://primusbank.qedgetech.com/adminflow.aspx]]>
+            </line>
+            <line>
+              <![CDATA[New Branch with id 140 created Sucessfully]]>
+            </line>
+            <line>
+              <![CDATA[logout success]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:driverFactory.AppTest@41d477ed]" started-at="2022-10-19T20:55:43 IST" name="tearDown" finished-at="2022-10-19T20:55:43 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- driverFactory.AppTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
